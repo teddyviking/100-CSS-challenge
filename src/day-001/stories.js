@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { host } from 'storybook-host';
 import Day001 from './index';
 
-storiesOf('helpers.storybook', module)
+storiesOf('Day 001', module)
   .addDecorator(
     host({
       title: 'Day 1',
@@ -12,4 +12,4 @@ storiesOf('helpers.storybook', module)
       width: 400
     })
   )
-  .add('Day001', () => <Day001 />);
+  .add('Base', () => <Day001 />);
