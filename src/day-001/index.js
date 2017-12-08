@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 const Challenge001 = () => (
-  <div className="container">
+  <div className="day-001 container">
     <div className="content">
       <div className="number">
         <div className="one-short" />
